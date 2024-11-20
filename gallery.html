@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="about.html">Про мене</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="report.html">Звіт</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Галерея</h1>
+        <div class="gallery">
+            <div class="gallery-item">
+                <picture> 
+                    <source media="(orientation: landscape)"  
+                            srcset="https://i.postimg.cc/XYD1WVk4/17254520392f685c6f355241462c8285a2703d8592-thumbnail-405x552.jpg 200w">  
+                    <source media="(orientation: portrait)"  
+                            srcset="https://i.postimg.cc/52N8fTx3/Flag-of-Haiti-svg.png 200w">
+                    <img src="https://i.postimg.cc/XYD1WVk4/17254520392f685c6f355241462c8285a2703d8592-thumbnail-405x552.jpg" alt="Зображення 1"> 
+                </picture> 
+            </div>
+            <div class="gallery-item">
+                <picture> 
+                    <source media="(orientation: landscape)"  
+                            srcset="https://i.postimg.cc/fbt2T68X/Sharko-Plush.png 600w">  
+                    <source media="(orientation: portrait)"  
+                            srcset="https://i.postimg.cc/x1xM858S/Flag-of-Puerto-Rico-svg.png 600w">
+                    <img src="https://i.postimg.cc/fbt2T68X/Sharko-Plush.png" alt="Зображення 2"> 
+                </picture> 
+            </div>
+            <div class="gallery-item">
+                <picture> 
+                    <source media="(orientation: landscape)"  
+                            srcset="https://i.postimg.cc/Dz9CWBNN/sharko.png 1000w">  
+                    <source media="(orientation: portrait)"  
+                            srcset="https://i.postimg.cc/DzSsXG44/Flag-of-Fiji-svg.png 1000w">
+                    <img src="https://i.postimg.cc/Dz9CWBNN/sharko.png" alt="Зображення 3"> 
+                </picture> 
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Автор: Зверянський Максим</p>
+    </footer>
+</body>
+</html>
